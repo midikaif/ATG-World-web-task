@@ -20,7 +20,7 @@ function Modal({ setModal }) {
 
     function handleLogin() {
         if (localStorage.getItem('user') && registered) {
-            window.location.href = '/'   
+            window.location.href = 'https://midikaif.github.io/ATG-World-web-task/'   
         }
     }
 
