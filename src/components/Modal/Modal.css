@@ -1,0 +1,185 @@
+.modalBackground {
+    width: 100vw;
+    height: 92vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer {
+    width: 736px;
+    height: 485px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 25px; */
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal-header {
+    display: flex;
+
+    justify-content: center;
+}
+
+.modal-header {
+    height: 50px;
+    padding: 10px 20px;
+    background: #EFFFF4;
+    border-radius: 8px 8px 0px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-align: center;
+
+    color: #008A45;
+}
+
+.titleCloseBtn {
+    /* background-color: transparent; */
+    border: none;
+    font-size: 18px;
+
+    position: relative;
+    bottom: 24px;
+    left: 5px;
+    /* left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%; */
+    border-radius: 50%;
+    opacity: .4;
+    color: rgba(0, 0, 0, 0.55);
+    background: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.formBody {
+    width: 65%;
+}
+
+
+.modal-body {
+
+    display: flex;
+    flex-basis: 0;
+}
+
+.border-circle {
+    border-radius: 20px;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.social-media {
+    padding: 4px 2px;
+    border-radius: 20px;
+    border: .6px solid #D9D9DB;
+    text-align: center;
+}
+
+.social-media svg {
+    color: blue;
+    margin-right: 5px;
+}
+
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    width: 50%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.signin-text {
+    padding-right: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#pass {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    margin-top: 12px;
+    letter-spacing: -0.008em;
+
+    color: #000000;
+}
+
+/* ------------------------------- */
+
+
+.description span {
+    color: #2F6CE5;
+}
+
+/* .modal-img{
+    background: url();
+} */
+
+.modal-footer {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding-right: 8px;
+    opacity: 0.6;
+}
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}

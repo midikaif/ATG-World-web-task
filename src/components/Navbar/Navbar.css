@@ -1,0 +1,128 @@
+/* .search-bar {
+    display: flex;
+
+} */
+
+/* nav{
+    background: #fff !important;
+} */
+
+.container {
+    justify-content: space-between !important;
+}
+
+
+#search-icon {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 554px;
+    top: 24px;
+    z-index: 1;
+    color: #7A7A7A;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 360px;
+    background: #F2F2F2;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 1px 11px;
+    font-size: 15px;
+    color: #cac7ff;
+}
+
+::placeholder{
+    color: #5C5C5C;
+}
+
+.search-bar svg{
+    width: 16px;
+}
+
+/* .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    height: 30px;
+    background: #F2F2F2;
+    cursor: pointer;
+} */
+
+/* .search-bar input {
+    position: absolute;
+    width: 360px;
+    padding-left: 39px;
+    height: 42px;
+    left: 540px;
+    top: 16px;
+    background: #F2F2F2;
+    border-radius: 21px;
+} */
+
+.login {
+    height: 21px;
+    left: 1161px;
+    top: 27px;
+    background: transparent;
+    /* outline: none; */
+    border: none;
+    /* font-family: 'IBM Plex Sans'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    /* text-align: right; */
+
+    color: #2E2E2E;
+
+}
+
+.login span {
+    color: #2F6CE5;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+}
+
+#user svg{
+    margin: 0px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    #user span{
+        display: none !important;
+    }
+}
+
+.login span svg {
+    color: #2E2E2E;
+}
+
+.custom-modal{
+    left: 61px;
+    width: 33%;
+    position: relative;
+    top: 38px;
+}
+
+
+
+.modal-img{
+    height: 50vh;
+    background: url(../../images/atg_illustration.png);
+}
