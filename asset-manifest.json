@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ATG-World-web-task/static/css/main.2f3dd80c.css",
+    "main.js": "/ATG-World-web-task/static/js/main.546315cb.js",
+    "static/js/787.c6f5fd5d.chunk.js": "/ATG-World-web-task/static/js/787.c6f5fd5d.chunk.js",
+    "static/media/header-img.jpg": "/ATG-World-web-task/static/media/header-img.7f6625620652c1127716.jpg",
+    "static/media/atg_illustration.png": "/ATG-World-web-task/static/media/atg_illustration.c016cd71e09efd31da09.png",
+    "index.html": "/ATG-World-web-task/index.html",
+    "main.2f3dd80c.css.map": "/ATG-World-web-task/static/css/main.2f3dd80c.css.map",
+    "main.546315cb.js.map": "/ATG-World-web-task/static/js/main.546315cb.js.map",
+    "787.c6f5fd5d.chunk.js.map": "/ATG-World-web-task/static/js/787.c6f5fd5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f3dd80c.css",
+    "static/js/main.546315cb.js"
+  ]
+}
